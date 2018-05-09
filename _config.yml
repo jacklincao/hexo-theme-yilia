@@ -6,10 +6,11 @@ menu:
 
 # SubNav
 subnav:
-  github: "#"
+  github: "https://github.com/jacklincao"
   weibo: "#"
   rss: "#"
-  zhihu: "#"
+  zhihu: "https://www.zhihu.com/people/lin-lin-43-43-64/activities"
+  qq: "http://wpa.qq.com/msgrd?v=3&uin=1287075856&site=qq&menu=yes"
   #qq: "#"
   #weixin: "#"
   #jianshu: "#"
@@ -33,7 +34,7 @@ root: /
 # Content
 
 # 文章太长，截断按钮文字
-excerpt_link: more
+excerpt_link: 更多
 # 文章卡片右下角常驻链接，不需要请设置为false
 show_all_link: '展开全文'
 # 数学公式
@@ -47,7 +48,7 @@ reward_type: 2
 # 打赏wording
 reward_wording: '谢谢你请我吃糖果'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: 
+alipay: /assets/zhifubao.jpg
 # 微信二维码图片地址
 weixin: 
 
@@ -68,7 +69,7 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar:
+avatar: /assets/headImg.jpg 
 
 #是否开启分享
 share_jia: true
@@ -100,7 +101,7 @@ gitment_oauth:
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
   # 头像上面的背景颜色
-  header: '#4d4d4d'
+  header: 'lightskyblue'
   # 右滑板块背景
   slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
 
@@ -116,15 +117,21 @@ slider:
 #  friends: false
 smart_menu:
   innerArchive: '所有文章'
-  friends: '友链'
+  #friends: '友链'
+  friends: '相关链接'
   aboutme: '关于我'
 
 friends:
-  友情链接1: http://localhost:4000/
-  友情链接2: http://localhost:4000/
-  友情链接3: http://localhost:4000/
-  友情链接4: http://localhost:4000/
-  友情链接5: http://localhost:4000/
-  友情链接6: http://localhost:4000/
-
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+  阮一峰博客: http://www.ruanyifeng.com/home.html
+  阿里UED: http://taobaofed.org/
+  阿里国际UED: http://www.aliued.com/?cat=14
+  廖雪峰网站: https://www.liaoxuefeng.com/
+  360前端团队: https://75team.com/
+  腾讯Alloy Team前端: http://www.alloyteam.com/
+  百度前端: http://fex.baidu.com/
+  新浪UED: http://ued.sina.com.cn/?cat=4
+  张鑫旭: http://www.zhangxinxu.com/wordpress/
+  
+aboutme: 爱编程，不爱bug<br>
+         前端学习~ing<br>
+         偶尔写写博客的程序猿一只

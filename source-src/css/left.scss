@@ -88,7 +88,7 @@
 			position: relative;
 			overflow: hidden;
 			background: #88acdb;
-			-webkit-transition: all 0.2s ease-in;
+			-webkit-transition: all 0.5s ease-in;
 			display: -webkit-box;
 			-webkit-box-orient: horizontal;
 			-webkit-box-pack: center;
@@ -105,6 +105,9 @@
 				}
 			}
 		}
+    .profilepic:hover {
+      transform: rotate(360deg);
+    }
 		.header-author{
 			text-align: center;
 			margin: 0.67em 0;
